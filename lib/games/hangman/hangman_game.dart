@@ -102,12 +102,12 @@ class _HangmanGameScreenState extends State<HangmanGameScreen> {
     ).updateScore('hangman', finalScore);
 
     // 3. Optional: Show a little snackbar or celebration
-    ScaffoldMessenger.of(context).showSnackBar(
+    /* ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         content: Text("New High Score: $finalScore!"),
         backgroundColor: Colors.green,
       ),
-    );
+    ); */
   }
 
   @override

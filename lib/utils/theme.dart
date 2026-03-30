@@ -13,6 +13,18 @@ class AppTheme {
     primaryColorDark: AppColors.primary.withBlue(200),
     primaryColor: AppColors.primary,
     highlightColor: Colors.black54,
+    chipTheme: ChipThemeData(
+      disabledColor: Colors.grey.shade300,
+      labelStyle: const TextStyle(
+        color: Colors.white,
+        fontWeight: FontWeight.bold,
+      ), // Default
+      secondaryLabelStyle: TextStyle(
+        color: Colors.black.withValues(alpha: 0.4),
+      ), // For disabled
+      // This ensures the "dimmed" effect doesn't go all the way to transparent
+      brightness: Brightness.light,
+    ),
   );
 
   static ThemeData darkTheme = ThemeData(

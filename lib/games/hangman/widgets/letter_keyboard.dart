@@ -23,13 +23,7 @@ class LetterKeyboard extends StatelessWidget {
       children: letters.split('').map((letter) {
         final isGuessed = guessedLetters.contains(letter);
         return ActionChip(
-          label: Text(
-            letter,
-            style: const TextStyle(
-              fontWeight: FontWeight.bold,
-              color: Colors.white,
-            ),
-          ),
+          label: Text(letter, textAlign: TextAlign.center),
           backgroundColor: Theme.of(context).primaryColor,
           side: BorderSide(color: Colors.blueGrey),
           // Disable button if game is over or letter is already guessed
