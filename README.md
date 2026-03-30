@@ -30,12 +30,12 @@ A polished, multi-game Flutter application featuring classic logic and reflex ga
 
 1. **Clone the repo:**
    ```bash
-   git clone [https://github.com/Dev19-code/Game-Hub.git](https://github.com/Dev19-code/Game-Hub.git)
+   git clone https://github.com/Dev19-code/Game-Hub.git
 
-2.  **Install dependencies:**
+2. **Install dependencies:**
    ```bash
    flutter pub get
 
-3.  **Run the app:**
+3. **Run the app:**
    ```bash
    flutter run
