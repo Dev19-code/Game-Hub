@@ -36,6 +36,6 @@ A polished, multi-game Flutter application featuring classic logic and reflex ga
    ```bash
    flutter pub get
 
-3. **Run the app:**
+3.  **Run the app:**
    ```bash
    flutter run
